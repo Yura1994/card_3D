@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+.container{
+
+    display: flex;
+    height: 100vh;
+    background-color: #ffbe76;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.card{
+
+     perspective: 1000px;
+    transform-style: preserve-3d;
+         
+}
+
+.item_card{
+        /* border: solid 1.5px #000;  */
+     background-color: #dff9fb;
+     height: 250px;
+     width: 250px;
+     transition: transform 0.3s;
+     /* transform: rotateX(20deg); */
+}
+
